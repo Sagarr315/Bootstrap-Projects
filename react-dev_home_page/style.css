@@ -1,0 +1,6 @@
+.nav-hover:hover {
+  border-radius:40px;
+  background-color: hsl(0, 0%, 95%);  
+  cursor: pointer;            
+  transition: background-color 0.3s ease; 
+}
