@@ -3,57 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nike. Just Do It</title>
+    <title>Nike Homepage UI Clone</title>
+    <!-- Bootstrap CDN -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap Icons -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
       rel="stylesheet"
     />
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Top Promo Banner -->
-    <div class="promo-bar py-1">
-      <div class="d-flex justify-content-end gap-3 pe-3 fw-medium">
-        <div style="color: black">Find a Store |</div>
-        <div style="color: black">Help |</div>
-        <div style="color: black">Jion us |</div>
-        <div style="color: black">sign in |</div>
+    <div class="promo-bar">
+      <div
+        class="d-none d-sm-flex flex-wrap justify-content-end gap-2 gap-md-3 pe-3 fw-medium text-end"
+      >
+        <div>Find a Store |</div>
+        <div>Help |</div>
+        <div>Join us |</div>
+        <div>Sign in</div>
       </div>
     </div>
 
     <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm sticky-top"
-    >
+    <nav class="navbar navbar-expand-lg" style="background-color: #1f1f21">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
             src="https://1000logos.net/wp-content/uploads/2017/03/Nike-Logo.png"
             height="35"
-            alt="Nike"
+            alt="Nike Logo"
+            style="filter: brightness(0) invert(1)"
           />
         </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
         <div
           class="collapse navbar-collapse justify-content-center"
           id="navbarNav"
         >
           <ul class="navbar-nav gap-4">
             <li class="nav-item">
-              <a class="nav-link fw-semibold" href="#">New & Featured</a>
+              <a class="nav-link fw-semibold" href="#">New</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-semibold" href="#">Men</a>
@@ -65,52 +58,211 @@
               <a class="nav-link fw-semibold" href="#">Kids</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-semibold" href="#">sale</a>
+              <a class="nav-link fw-semibold" href="#">Jordan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-semibold" href="#">SNKRS</a>
+              <a class="nav-link fw-semibold" href="#">Sports</a>
             </li>
           </ul>
         </div>
-
         <div class="d-flex align-items-center gap-3">
-          <!-- Search Field with Icon -->
-          <div class="position-relative" style="max-width: 250px">
+          <!-- Search bar wrapper -->
+          <div class="position-relative d-none d-lg-block" style="width: 200px">
+            <!-- Search icon inside -->
             <i
-              class="bi bi-search position-absolute top-50 start-0 translate-middle-y ps-3 fs-5 text-secondary"
+              class="bi bi-search position-absolute top-50 start-0 translate-middle-y ps-3 fs-5 text-white"
             ></i>
+            <!-- Input -->
             <input
-              class="form-control form-control-sm rounded-pill fw-medium ps-5"
+              class="form-control form-control-sm rounded-pill justify-content-end fw-medium ps-5"
               type="search"
               placeholder="Search"
               aria-label="Search"
-              style="background-color: #ebecf0; color: #99a1b3; font-size: 17px"
+              style="
+                background-color: #1f1f21;
+                color: white;
+                border: 1px solid #444;
+                font-size: 17px;
+                width: 100%;
+              "
             />
           </div>
 
-          <!-- Other Icons -->
-          <i class="bi bi-heart fs-5 cursor-pointer text-dark"></i>
-          <i class="bi bi-bag fs-5 cursor-pointer text-dark"></i>
+          <i class="bi bi-search fs-5 text-white d-block d-lg-none"></i>
+          <i class="bi bi-heart fs-5 text-white d-none d-lg-inline"></i>
+          <i class="bi bi-person fs-5 text-white d-lg-none"></i>
+          <i class="bi bi-bag fs-5 text-white gap-2"></i>
+          <i class="bi bi-list fs-2 text-white d-lg-none"></i>
         </div>
       </div>
     </nav>
 
-    <!-- Hero Banner -->
-    <section class="hero-section position-relative">
+    <div
+      class="d-flex justify-content-center align-items-center"
+      style="background-color: black; height: 50px"
+    >
+      Get a Nike Gift Card
+    </div>
+    <div
+      class="d-flex flex-column justify-content-center align-items-center px-2 sticky-top"
+      style="background-color: #1f1f21; height: 150px"
+    >
+      <!-- Centered Image -->
       <img
-        src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1417,c_limit/f79d4811-91f8-4946-903e-6c7f5d3fa589/nike-just-do-it.jpg"
-        class="w-100 img-fluid"
-        alt="Nike Banner"
+        src="./img/jordan-logo.jpeg"
+        height="75px"
+        alt="Jordan Logo"
+        class="mx-auto d-block"
       />
-      <div class="hero-content position-absolute translate-middle text-white">
-        <h1 class="display-5 fw-bold" style="margin: 20px">NIKE PEGASUS 41</h1>
-        <p class="lead">Your everyday responsive trainer returns</p>
-        <a href="#" class="btn btn-light mt-3 px-4 py-2 fw-semibold"
-          >Shop Now</a
-        >
-      </div>
 
-      <figcaption></figcaption>
-    </section>
+      <!-- Scrollable nav -->
+      <!-- Scrollable nav -->
+      <nav class="mt-3 w-100">
+        <ul
+          class="nav flex-nowrap overflow-auto text-nowrap justify-content-lg-center px-2"
+          style="white-space: nowrap"
+        >
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">New Arrival</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Jordan Sport</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Purpose & Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Shoes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Clothing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Accessories</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="jordan-banner">
+      <img src="./img/shoes-1.jpeg" alt="Jordan Banner" class="jordan-image" />
+    </div>
+
+    <!-- Outer div with margin -->
+    <div class="d my-5 px-3">
+      <!-- Inner flexbox: center content -->
+      <div
+        class="d-flex flex-column justify-content-center align-items-center text-center"
+      >
+        <p class="mb-2 fw-bold">Air Jordan 40</p>
+        <h2 class="fw-bolder mb-2">NEVER BEEN DONE<br />IS WHAT WE DO</h2>
+        <p class="fw-bold">
+          Forty shoes in, and we're still running up the score.
+        </p>
+        <div class="" style="margin: top 10px">
+          <button class="rounded-white-btn fw-semibold">Notify Me</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5 px-3">
+      <section>
+        <div class="row">
+          <!-- Image 1 with "Bounce" -->
+          <div class="col-md-4 mb-4 position-relative">
+            <a href="#" class="d-block position-relative">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_459,c_limit/125e4372-ae7d-46db-b26b-4dac50a29126/jordan.jpg"
+                class="img-fluid rounded"
+                alt="Image 1"
+              />
+              <div
+                class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
+              >
+                Bounce
+              </div>
+            </a>
+          </div>
+
+          <!-- Image 2 with "Cushion" -->
+          <div class="col-md-4 mb-4 position-relative">
+            <a href="#" class="d-block position-relative">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_459,c_limit/fd1ab94d-3b71-4b17-8833-a35a3dceff95/jordan.jpg"
+                class="img-fluid rounded"
+                alt="Image 2"
+              />
+              <div
+                class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
+              >
+                Cushion
+              </div>
+            </a>
+          </div>
+
+          <!-- Image 3 with "Traction" -->
+          <div class="col-md-4 mb-4 position-relative">
+            <a href="#" class="d-block position-relative">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_642,c_limit/5ea5f3a8-e62f-4e1a-9e29-dda180302242/jordan.jpg"
+                class="img-fluid rounded"
+                alt="Image 3"
+              />
+              <div
+                class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
+              >
+                Traction
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="position-relative w-100">
+      <!-- Background image full width, fixed aspect ratio -->
+      <img
+        src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_1600,c_limit/f22c8bcc-1615-47a5-8ae3-af31a38bd56d/jordan.jpg"
+        alt="Banner"
+        class="img-fluid w-100"
+        style="aspect-ratio: 1554 / 540; object-fit: cover"
+      />
+
+      <!-- Overlay text on large screens -->
+      <div
+        class="position-absolute bottom-0 start-0 text-white p-4 d-none d-lg-block"
+        style="max-width: 60%"
+      >
+        <p class="mb-1">Women’s AJ3 ‘Starfish’</p>
+        <h1 class="fw-bold display-5">LIGHT WORK.<br />HEAVY HITTER.</h1>
+        <button class="btn btn-light rounded-pill mt-3 px-4 py-2 fw-semibold">
+          Notify Me
+        </button>
+      </div>
+    </div>
+
+    <div class="position-relative w-100" style="margin-top: 50px">
+      <!-- Single full-width responsive image -->
+      <img
+        src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/w_887,c_limit/c476439c-e4df-4c0c-b460-d9a2dcfc9cbb/jordan.jpg"
+        alt="Jordan Golf"
+        class="img-fluid w-100"
+        style="aspect-ratio: 16 / 9; object-fit: cover"
+      />
+
+      <!-- Overlay content (text + button) -->
+      <div
+        class="position-absolute bottom-0 start-0 text-white p-4"
+        style="max-width: 70%"
+      >
+        <p class="mb-1 text-uppercase">Jordan Golf</p>
+        <h1 class="fw-bold display-5 text-uppercase">
+          Heading With Drip Meets Drive
+        </h1>
+        <button class="btn btn-light rounded-pill mt-3 px-4 py-2 fw-semibold">
+          Shop
+        </button>
+      </div>
+    </div>
   </body>
 </html>
