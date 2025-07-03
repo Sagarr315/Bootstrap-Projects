@@ -148,76 +148,131 @@
       <img src="./img/shoes-1.jpeg" alt="Jordan Banner" class="jordan-image" />
     </div>
 
-    <!-- Outer div with margin -->
-    <div class="d my-5 px-3">
-      <!-- Inner flexbox: center content -->
-      <div
-        class="d-flex flex-column justify-content-center align-items-center text-center"
-      >
-        <p class="mb-2 fw-bold">Air Jordan 40</p>
-        <h2 class="fw-bolder mb-2">NEVER BEEN DONE<br />IS WHAT WE DO</h2>
-        <p class="fw-bold">
-          Forty shoes in, and we're still running up the score.
-        </p>
-        <div class="" style="margin: top 10px">
-          <button class="rounded-white-btn fw-semibold">Notify Me</button>
+   <!-- Outer div with margin -->
+<div class="my-5 px-3">
+  <!-- Inner flexbox -->
+  <div class="custom-text-block text-center">
+    <p class="mb-2 fw-bold">Air Jordan 40</p>
+    <h2 class="fw-bolder mb-2">NEVER BEEN DONE<br />IS WHAT WE DO</h2>
+    <p class="fw-bold">
+      Forty shoes in, and we're still running up the score.
+    </p>
+    <div class="mt-2">
+      <button class="rounded-white-btn fw-semibold">Notify Me</button>
+    </div>
+  </div>
+</div>
+
+    <div class="container my-5 px-3">
+  <section>
+    <!-- Wrapper for cards -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 d-none d-lg-flex">
+      <!-- Card 1 -->
+      <div class="col">
+        <div class="position-relative">
+          <a href="#" class="d-block position-relative">
+            <img
+              src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_459,c_limit/125e4372-ae7d-46db-b26b-4dac50a29126/jordan.jpg"
+              class="img-fluid rounded"
+              alt="Image 1"
+            />
+            <div
+              class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
+            >
+              Bounce
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col">
+        <div class="position-relative">
+          <a href="#" class="d-block position-relative">
+            <img
+              src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_459,c_limit/fd1ab94d-3b71-4b17-8833-a35a3dceff95/jordan.jpg"
+              class="img-fluid rounded"
+              alt="Image 2"
+            />
+            <div
+              class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
+            >
+              Cushion
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col">
+        <div class="position-relative">
+          <a href="#" class="d-block position-relative">
+            <img
+              src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_642,c_limit/5ea5f3a8-e62f-4e1a-9e29-dda180302242/jordan.jpg"
+              class="img-fluid rounded"
+              alt="Image 3"
+            />
+            <div
+              class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
+            >
+              Traction
+            </div>
+          </a>
         </div>
       </div>
     </div>
 
-    <div class="container my-5 px-3">
-      <section>
-        <div class="row">
-          <!-- Image 1 with "Bounce" -->
-          <div class="col-md-4 mb-4 position-relative">
-            <a href="#" class="d-block position-relative">
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_459,c_limit/125e4372-ae7d-46db-b26b-4dac50a29126/jordan.jpg"
-                class="img-fluid rounded"
-                alt="Image 1"
-              />
-              <div
-                class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
-              >
-                Bounce
-              </div>
-            </a>
+    <!-- Scrollable version for smaller screens (visible on sm and md only) -->
+    <div class="d-lg-none d-flex flex-nowrap overflow-auto gap-3">
+      <!-- Same 3 Cards as above but scrollable -->
+      <div class="flex-shrink-0" style="width: 300px;">
+        <a href="#" class="d-block position-relative">
+          <img
+            src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_459,c_limit/125e4372-ae7d-46db-b26b-4dac50a29126/jordan.jpg"
+            class="img-fluid rounded"
+            alt="Image 1"
+          />
+          <div
+            class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
+          >
+            Bounce
           </div>
+        </a>
+      </div>
 
-          <!-- Image 2 with "Cushion" -->
-          <div class="col-md-4 mb-4 position-relative">
-            <a href="#" class="d-block position-relative">
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_459,c_limit/fd1ab94d-3b71-4b17-8833-a35a3dceff95/jordan.jpg"
-                class="img-fluid rounded"
-                alt="Image 2"
-              />
-              <div
-                class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
-              >
-                Cushion
-              </div>
-            </a>
+      <div class="flex-shrink-0" style="width: 300px;">
+        <a href="#" class="d-block position-relative">
+          <img
+            src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_459,c_limit/fd1ab94d-3b71-4b17-8833-a35a3dceff95/jordan.jpg"
+            class="img-fluid rounded"
+            alt="Image 2"
+          />
+          <div
+            class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
+          >
+            Cushion
           </div>
+        </a>
+      </div>
 
-          <!-- Image 3 with "Traction" -->
-          <div class="col-md-4 mb-4 position-relative">
-            <a href="#" class="d-block position-relative">
-              <img
-                src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_642,c_limit/5ea5f3a8-e62f-4e1a-9e29-dda180302242/jordan.jpg"
-                class="img-fluid rounded"
-                alt="Image 3"
-              />
-              <div
-                class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
-              >
-                Traction
-              </div>
-            </a>
+      <div class="flex-shrink-0" style="width: 300px;">
+        <a href="#" class="d-block position-relative">
+          <img
+            src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_642,c_limit/5ea5f3a8-e62f-4e1a-9e29-dda180302242/jordan.jpg"
+            class="img-fluid rounded"
+            alt="Image 3"
+          />
+          <div
+            class="position-absolute bottom-0 start-0 text-white fw-bold fs-4 mb-3 ms-3"
+          >
+            Traction
           </div>
-        </div>
-      </section>
+        </a>
+      </div>
     </div>
+  </section>
+</div>
+
 
     <div class="position-relative w-100">
       <!-- Background image full width, fixed aspect ratio -->
@@ -264,5 +319,248 @@
         </button>
       </div>
     </div>
+
+
+
+
+<!-- ON TREND SECTION -->
+<div class="container-fluid py-5 px-4" style="background-color: black;">
+  <!-- Header with Buttons -->
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h4 class="text-white fw-bold">ON TREND</h4>
+    <div>
+      <!-- Left Scroll Button -->
+      <button class="btn rounded-circle border border-white me-2" style="background-color: #4B4B4D;">
+        <i class="bi bi-chevron-left text-white"></i>
+      </button>
+      <!-- Right Scroll Button -->
+      <button class="btn rounded-circle border border-white" style="background-color: #4B4B4D;">
+        <i class="bi bi-chevron-right text-white"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
+  <!-- Product Cards -->
+  <div class="d-flex overflow-auto gap-4">
+
+    <!-- Card 1 -->
+    <div class="bg-white" style="min-width: 400px">
+      <img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_467,c_limit/5c48e7de-23c5-4016-ae21-facb3e25f86e/air-jordan-40-the-classic-basketball-shoes-O8uDaP8y.png" class="img-fluid w-100" alt="Shoe 1">
+      <div class=" text-white p-3" style="background-color:#1F1F21;">
+        <h6 class="mb-1">Air Jordan 3 Retro "Pure Money"</h6>
+        <p class="mb-1 small text-secondary">Men's Shoes</p>
+        <strong>$205</strong>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-white" style="min-width: 400px">
+      <img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_467,c_limit/b78db1a9-a8e2-4c29-82e1-2f7fc7a759ba/air-jordan-3-retro-starfish-womens-shoes-q5hxaG9L.png" class="img-fluid w-100" alt="Shoe 2">
+      <div class=" text-white p-3" style="background-color:#1F1F21;">
+        <h6 class="mb-1">Air Jordan 3 Retro "Pure Money"</h6>
+        <p class="mb-1 small text-secondary">Big Kids' Shoes</p>
+        <strong>$150</strong>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-white" style="min-width: 400px">
+      <img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_467,c_limit/91dd31ea-3807-45c2-abb3-ace364152bd2/air-jordan-3-retro-pure-money-mens-shoes-sIYNmIUp.png" class="img-fluid w-100" alt="Shoe 3">
+      <div class=" text-white p-3"style="background-color:#1F1F21;">
+        <h6 class="mb-1">Air Jordan 3 Retro "Pure Money"</h6>
+        <p class="mb-1 small text-secondary">Baby/Toddler Shoes</p>
+        <strong>$75</strong>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="bg-white" style="min-width: 400px">
+      <img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_467,c_limit/2692e4cf-0384-4e1f-9f92-3a5a6eda646c/air-jordan-3-retro-pure-money-big-kids-shoes-QWv209h7.png" class="img-fluid w-100" alt="Shoe 4">
+      <div class="text-white p-3" style="background-color: #1F1F21;">
+        <h6 class="mb-1">Air Jordan 3 Retro "Pure Money"</h6>
+        <p class="mb-1 small text-secondary">Men's Shoes</p>
+        <strong>$205</strong>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="bg-white" style="min-width: 400px">
+      <img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_467,c_limit/bae102d5-9cf1-433f-a5d9-1e0030536528/jordan-3-retro-pure-money-baby-toddler-shoes-EDiXmxuE.png" class="img-fluid w-100" alt="Shoe 5">
+      <div class=" text-white p-3"style="background-color:#1F1F21;">
+        <h6 class="mb-1">Air Jordan 3 Retro "Pure Money"</h6>
+        <p class="mb-1 small text-secondary">Big Kids' Shoes</p>
+        <strong>$150</strong>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="bg-white" style="min-width: 400px">
+      <img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_2.0/h_467,c_limit/eefe97c3-1b38-4e84-b85b-5fd2fe52751c/air-jordan-5-retro-grape-mens-shoes-PLAgkkji.png" class="img-fluid w-100" alt="Shoe 6">
+      <div class=" text-white p-3 " style="background-color:#1F1F21;">
+        <h6 class="mb-1">Air Jordan 3 Retro "Pure Money"</h6>
+        <p class="mb-1 small text-secondary">Baby/Toddler Shoes</p>
+        <strong>$75</strong>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- SHOP SECTION -->
+    <div class="container my-5">
+      <h4 class="text-white mb-4">SHOP</h4>
+      <section>
+        <ul class="list-unstyled row g-3">
+          <!-- MENS -->
+          <li class="col-md-4">
+            <a href="#" class="text-decoration-none">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_584,c_limit/92abb27b-46f5-4e9d-8d0a-c64191410829/jordan.jpg"
+                class="img-fluid rounded"
+                alt="Mens"
+              />
+              <p class="text-center text-white mt-2">MENS</p>
+            </a>
+          </li>
+
+          <!-- WOMENS -->
+          <li class="col-md-4">
+            <a href="#" class="text-decoration-none">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_584,c_limit/9f7b46c2-95e8-4b38-970a-d90998e5ae87/jordan.jpg"
+                class="img-fluid rounded"
+                alt="Womens"
+              />
+              <p class="text-center text-white mt-2">WOMENS</p>
+            </a>
+          </li>
+
+          <!-- KIDS -->
+          <li class="col-md-4">
+            <a href="#" class="text-decoration-none">
+              <img
+                src="https://static.nike.com/a/images/f_auto/dpr_2.0,cs_srgb/h_584,c_limit/477edaa4-c231-4027-ab28-3c6055a4318d/jordan.jpg"
+                class="img-fluid rounded"
+                alt="Kids"
+              />
+              <p class="text-center text-white mt-2">KIDS</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+
+    <!-- Nike-Style Footer -->
+<div class="container-fluid px-5 pt-5 pb-3" style="background-color: #1e1e1e; color: #b3b3b3; font-size: 14px;">
+  <!-- Top Columns -->
+  <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5 mb-5 text-center d-flex justify-content-center">
+    <div class="mb-4">
+      <h6 class="text-white fw-semibold" style="margin-bottom: 20px;">Jordan Shoes</h6>
+      <ul class="list-unstyled">
+        <li><a href="#" class="footer-link">All Jordan Shoes</a></li>
+        <li><a href="#" class="footer-link">Air Jordan 1</a></li>
+        <li><a href="#" class="footer-link">Air Jordan 11</a></li>
+        <li><a href="#" class="footer-link">Air Jordan 13</a></li>
+      </ul>
+    </div>
+    <div class="mb-4">
+      <h6 class="text-white fw-semibold" style="margin-bottom: 20px;">Jordan Clothing</h6>
+      <ul class="list-unstyled">
+        <li><a href="#" class="footer-link">All Jordan Clothing</a></li>
+        <li><a href="#" class="footer-link">New Jordan Clothing</a></li>
+        <li><a href="#" class="footer-link">Basketball Clothing</a></li>
+        <li><a href="#" class="footer-link">Tops & T-Shirts</a></li>
+      </ul>
+    </div>
+    <div class="mb-4">
+      <h6 class="text-white fw-semibold" style="margin-bottom: 20px;">Jordan Gear</h6>
+      <ul class="list-unstyled">
+        <li><a href="#" class="footer-link">All Jordan Gear</a></li>
+        <li><a href="#" class="footer-link">Bags & Backpacks</a></li>
+        <li><a href="#" class="footer-link">Hats & Beanies</a></li>
+        <li><a href="#" class="footer-link">Socks</a></li>
+      </ul>
+    </div>
+    <div class="mb-4">
+      <h6 class="text-white fw-semibold" style="margin-bottom: 20px;">Featured</h6>
+      <ul class="list-unstyled">
+        <li><a href="#" class="footer-link">New Jordan Releases</a></li>
+        <li><a href="#" class="footer-link">Kids' Jordan</a></li>
+        <li><a href="#" class="footer-link">Russell Westbrook</a></li>
+        <li><a href="#" class="footer-link">Luka Dončić</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <hr style="border-color: #333" />
+
+  <!-- Bottom Columns -->
+  <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5 text-muted">
+    <div class="mb-4">
+      <h6 class="text-white fw-semibold">Resources</h6>
+      <ul class="list-unstyled">
+        <li><a href="#" class="footer-link">Gift Cards</a></li>
+        <li><a href="#" class="footer-link">Find a Store</a></li>
+        <li><a href="#" class="footer-link">Membership</a></li>
+        <li><a href="#" class="footer-link">Nike Journal</a></li>
+        <li><a href="#" class="footer-link">Site Feedback</a></li>
+      </ul>
+    </div>
+    <div class="mb-4">
+      <h6 class="text-white fw-semibold">Help</h6>
+      <ul class="list-unstyled">
+        <li><a href="#" class="footer-link">Get Help</a></li>
+        <li><a href="#" class="footer-link">Order Status</a></li>
+        <li><a href="#" class="footer-link">Shipping and Delivery</a></li>
+        <li><a href="#" class="footer-link">Returns</a></li>
+        <li><a href="#" class="footer-link">Order Cancellation</a></li>
+        <li><a href="#" class="footer-link">Payment Options</a></li>
+        <li><a href="#" class="footer-link">Gift Card Balance</a></li>
+        <li><a href="#" class="footer-link">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="mb-4">
+      <h6 class="text-white fw-semibold">Company</h6>
+      <ul class="list-unstyled">
+        <li><a href="#" class="footer-link">About Nike</a></li>
+        <li><a href="#" class="footer-link">News</a></li>
+        <li><a href="#" class="footer-link">Careers</a></li>
+        <li><a href="#" class="footer-link">Investors</a></li>
+        <li><a href="#" class="footer-link">Purpose</a></li>
+        <li><a href="#" class="footer-link">Sustainability</a></li>
+      </ul>
+    </div>
+    <div class="mb-4">
+      <h6 class="text-white fw-semibold">Promotions & Discounts</h6>
+      <ul class="list-unstyled">
+        <li><a href="#" class="footer-link">Student</a></li>
+        <li><a href="#" class="footer-link">Military</a></li>
+        <li><a href="#" class="footer-link">Teacher</a></li>
+        <li><a href="#" class="footer-link">First Responders</a></li>
+        <li><a href="#" class="footer-link">Birthday</a></li>
+      </ul>
+    </div>
+    <div class="text-end mt-4 d-none d-lg-block">
+      <span class="text-white-50"><i class="bi bi-globe-americas"></i> United States</span>
+    </div>
+  </div>
+
+  <!-- Bottom Text -->
+ <div class="d-flex flex-wrap mt-4 pt-3" style="border-color: #333; margin-bottom: 50px; font-size: 15px;">
+  <small class="text-white-50">© 2025 Nike, Inc. All Rights Reserved</small>
+  <div class="d-flex flex-wrap gap-3 text-muted small ms-4">
+    <a href="#" class="footer-link">Guides</a>
+      <a href="#" class="footer-link">Terms of Sale</a>
+      <a href="#" class="footer-link">Terms of Use</a>
+      <a href="#" class="footer-link">Nike Privacy Policy</a>
+      <a href="#" class="footer-link">Your Privacy Choices</a>
+      <a href="#" class="footer-link">CA Supply Chains Act</a>
+    </div>
+  </div>
+</div>
+
   </body>
 </html>

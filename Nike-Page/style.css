@@ -2,10 +2,9 @@ body {
   background-color: #1f1f21;
   color: white;
   font-family: "Helvetica Neue", sans-serif;
-   
-    margin: 0;
-    padding: 0;
-  
+
+  margin: 0;
+  padding: 0;
 }
 
 .promo-bar {
@@ -24,6 +23,21 @@ body {
 ::placeholder {
   color: #d1d1d1;
 }
+
+@media (max-width: 568px) {
+    .custom-text-block {
+      text-align: left !important;
+      align-items: flex-start !important;
+    }
+  }
+
+    .overflow-auto::-webkit-scrollbar {
+    height: 8px;
+  }
+  .overflow-auto::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 4px;
+  }
 /* Removes browser default spacing */
 body {
   margin: 0;
@@ -63,7 +77,7 @@ body {
 }
 
 .rounded-white-btn {
-  font-weight:bold;
+  font-weight: bold;
   background-color: white;
   color: black;
   border: 1px solid #ccc;
@@ -76,4 +90,28 @@ body {
 
 .rounded-white-btn:hover {
   background-color: #f2f2f2;
+}
+
+.trend-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.trend-scroll::-webkit-scrollbar-thumb {
+  background-color: #333; /* This is dark gray; change to #000 for pure black */
+  border-radius: 10px;
+}
+.trend-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.footer-link {
+  color: #b3b3b3;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: white;
+  cursor: pointer;
 }
