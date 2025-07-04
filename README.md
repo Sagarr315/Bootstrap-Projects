@@ -7,11 +7,12 @@ The purpose is to **practice modern web design**, layout building, and responsiv
 
 ## 📁 Projects Included
 
-| Project Name        | Description                                | Live Demo                                   |
-|---------------------|--------------------------------------------|---------------------------------------------|
-| React.dev Homepage  | UI clone of the official React.dev landing page | [View Live](https://yourusername.github.io/bootstrap-projects/react-dev-clone) |
+| Project Name         | Description                                         | Live Demo                                                 |
+|----------------------|-----------------------------------------------------|------------------------------------------------------------|
+| Nike Jordan Homepage | UI clone of the official Nike Jordan landing page   | [View Live](https://yourusername.github.io/bootstrap-projects/nike-jordan-clone) |
+| React.dev Homepage   | UI clone of the official React.dev landing page     | [View Live](https://yourusername.github.io/bootstrap-projects/react-dev-clone) |
 
-> ✅ The project is inside its own folder with `index.html` and `style.css`.
+> ✅ Each project is inside its own folder with `index.html` and `style.css`.
 
 ---
 
