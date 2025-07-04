@@ -9,7 +9,7 @@ The purpose is to **practice modern web design**, layout building, and responsiv
 
 | Project Name         | Description                                         | Live Demo                                                 |
 |----------------------|-----------------------------------------------------|------------------------------------------------------------|
-| Nike Jordan Homepage | UI clone of the official Nike Jordan landing page   | [View Live](https://yourusername.github.io/bootstrap-projects/nike-jordan-clone) |
+| Nike Jordan Homepage | UI clone of the official Nike Jordan landing page   | [View Live](https://sagarr315.github.io/Bootstrap-Projects/nike-jordan-clone/) |
 | React.dev Homepage   | UI clone of the official React.dev landing page     | [View Live](https://yourusername.github.io/bootstrap-projects/react-dev-clone) |
 
 > ✅ Each project is inside its own folder with `index.html` and `style.css`.
