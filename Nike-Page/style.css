@@ -2,9 +2,10 @@ body {
   background-color: #1f1f21;
   color: white;
   font-family: "Helvetica Neue", sans-serif;
-
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
+  max-width: 100%;
 }
 
 .promo-bar {
@@ -25,19 +26,19 @@ body {
 }
 
 @media (max-width: 568px) {
-    .custom-text-block {
-      text-align: left !important;
-      align-items: flex-start !important;
-    }
+  .custom-text-block {
+    text-align: left !important;
+    align-items: flex-start !important;
   }
+}
 
-    .overflow-auto::-webkit-scrollbar {
-    height: 8px;
-  }
-  .overflow-auto::-webkit-scrollbar-thumb {
-    background-color: #333;
-    border-radius: 4px;
-  }
+.overflow-auto::-webkit-scrollbar {
+  height: 8px;
+}
+.overflow-auto::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 4px;
+}
 /* Removes browser default spacing */
 body {
   margin: 0;
