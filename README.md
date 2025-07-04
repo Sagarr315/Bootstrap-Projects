@@ -7,12 +7,13 @@ The purpose is to **practice modern web design**, layout building, and responsiv
 
 ## 📁 Projects Included
 
-| Project Name         | Description                                         | Live Demo                                                 |
-|----------------------|-----------------------------------------------------|------------------------------------------------------------|
-| Nike Jordan Homepage | UI clone of the official Nike Jordan landing page   | [View Live](https://sagarr315.github.io/Bootstrap-Projects/) |
-| React.dev Homepage   | UI clone of the official React.dev landing page     | [View Live](https://yourusername.github.io/bootstrap-projects/react-dev-clone) |
+| Project Name         | Description                                         | Live Demo                                                             |
+|----------------------|-----------------------------------------------------|------------------------------------------------------------------------|
+| Nike Jordan Homepage | UI clone of the official Nike Jordan landing page   | [View Live](https://sagarr315.github.io/Bootstrap-Projects/)          |
+| React.dev Homepage   | UI clone of the official React.dev landing page     | ❌ Not Live (Work in Progress)                                        |
 
-> ✅ Each project is inside its own folder with `index.html` and `style.css`.
+> ✅ Each project is inside its own folder with `index.html` and `style.css`.  
+> ❌ Projects without `index.html` or renamed (like `index-dev.html`) are not live.
 
 ---
 
@@ -20,7 +21,7 @@ The purpose is to **practice modern web design**, layout building, and responsiv
 
 - HTML5  
 - CSS3  
-- Bootstrap 5 (CDN based)
+- Bootstrap 5 (via CDN)
 
 ---
 
@@ -28,4 +29,4 @@ The purpose is to **practice modern web design**, layout building, and responsiv
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/bootstrap-projects.git
+   git clone https://github.com/sagarr315/Bootstrap-Projects.git
